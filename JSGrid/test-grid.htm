@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script  src="grid.js" ></script>
+  
+</head>
+<style>
+* { border:0; padding:0; margin:0; font-size: 14pt;color:white;
+}
+
+ #banner { 
+    height:100px;
+  background:#888;
+  line-height:100px;
+  text-align:center;
+}
+
+#main { min-height:500px; }
+
+#sidebar { float:left; min-height:500px; 
+    width:150px; background:#555
+}
+
+#content { color:black;
+padding-top:200px;
+}
+
+#footer { height:50px;
+  background:#333;
+}
+
+</style>
+<body>
+<div id="banner"> Banner of height 100px</div>
+<div id="main" >
+<div id="sidebar"> Sidebar of width 150px</div>
+
+<div id="content" >
+ Content goes here; enclosing div of this (and sidebar) is of min-height 550px
+</div>
+
+</div> <!-- end main -->
+<div id="footer"> Footer of height 50px</div>
+
+</body>
+</html>
