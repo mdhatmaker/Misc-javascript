@@ -1,0 +1,61 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+body {
+    background-color: darkblue;
+    color: white;
+}
+
+table {
+	background-color: black;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+th {
+	height: 80px;
+}
+
+td {
+	height: 50px;
+}
+
+td.normal {
+    font-weight: normal;
+}
+
+td.big {
+    font-weight: bold;
+    font-size: 125%;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
