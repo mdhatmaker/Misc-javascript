@@ -70,3 +70,30 @@ document.writeln(b.name);
 for (name in flight) {
 	document.writeln(name + ":" + flight[name]);
 }
+
+document.writeln("===================================== " + Date());
+var xstr = "This-is-a-string";
+document.writeln(xstr.charAt(0));
+var astr;
+document.writeln(astr);
+
+document.writeln(xstr.charAt(2));
+document.writeln(xstr.charAt(6));
+
+
+
+var myArray = ["Hello", 45, true];
+document.writeln(myArray[1]);
+document.writeln(myArray);
+myArray.push("World");
+document.writeln(myArray.length);
+
+var arr0 = [32,false,"js",12,56,90];
+arr0.join(";")	// join all elements of array with semicolon
+document.writeln(arr0);
+document.writeln(arr0.slice(1,4));
+
+var myObj = {key1: "Hello", key2: "World"};
+
+var myObj2 = {myKey: "myValue", "my other key": 4};
+
